@@ -18,8 +18,8 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "A la Une",
+              "/category/a-la-une/"
             ],
             [
               "Travel",
@@ -34,9 +34,9 @@ const settings = {
               "/about-us/"
             ]
           ],
-          "featured": {
-            "showOnList": false,
-            "showOnPost": false
+          featured: {
+            showOnList: false,
+            showOnPost: false
           }
         }
       }
@@ -45,7 +45,9 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          // "url": "https://pourelle.info"
+          // Change this url to point to your WordPress site.
+          api: "https://pourelle.info/wp-json"
         }
       }
     },
